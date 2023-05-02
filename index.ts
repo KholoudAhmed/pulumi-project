@@ -1,4 +1,5 @@
 import * as pulumi from "@pulumi/pulumi";
+import * as vsphere from "@pulumi/vsphere";
 
 const datacenter = vsphere.getDatacenter({
   name: "Datacenter",
